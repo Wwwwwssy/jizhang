@@ -23,22 +23,22 @@ class MainActivity : AppCompatActivity() {
                 val intent = Intent(this, MainActivity::class.java)
                 startActivity(intent)
             }
-//            R.id.main_iv_search -> {
-//                val intent2 = Intent(this, SearchActivity::class.java) //跳转界面
-//                startActivity(intent2)
-//            }
+
             R.id.main_btn_edit -> {
                 val intent3 = Intent(this, RecordActivity::class.java) //跳转界面
                 startActivity(intent3)
             }
+//                        R.id.main_iv_search -> {
+//                val intent2 = Intent(this, SearchActivity::class.java) //跳转界面
+//                startActivity(intent2)
+//            }
 //            R.id.main_btn_more -> {
 //                val moreDialog = MoreDialog(this)
 //                moreDialog.show()
 //                moreDialog.setDialogSize()
 //            }
 //            R.id.item_mainlv_top_tv_budget -> showBudgetDialog()
-//            R.id.item_mainlv_top_iv_hide ->                 // 切换TextView明文和密文
-//                toggleShow()
+//            R.id.item_mainlv_top_iv_hide -> toggleShow()     // 切换TextView明文和密文
 //        }
 //        if (v === headerView) {
 //            //头布局被点击了
